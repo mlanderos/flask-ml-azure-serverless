@@ -10,10 +10,11 @@ pool: myAgentPool
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: 'myserviceconnection'
-  
+  #azureServiceConnectionId: 'myserviceconnection'
+  azureServiceConnectionId: 'ce1cae61-d581-4b4a-bf7a-e26d1060db7a'
+
   # TODO: Replace 'mywebapp193576' with the existing Web App name
-  webAppName: 'mywebapp193576'
+  webAppName: 'flask-ml-azure-serverless'
 
   # Environment name
   environmentName: 'flask-ml-service'
